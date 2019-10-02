@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_tab"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorAnimationDuration="600"
+        app:tabTextColor="@android:color/white"
+        app:tabSelectedTextColor="@android:color/white"
+        android:background="@color/colorPrimary">
+
+    <android.support.design.widget.TabItem
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_item_suggestions"
+        android:text="stories" />
+
+    <android.support.design.widget.TabItem
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_item_users"
+        android:text="users" />
+
+    <android.support.design.widget.TabItem
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_item_chat"
+        android:text="notifications" />
+    </android.support.design.widget.TabLayout>
+
+</LinearLayout>

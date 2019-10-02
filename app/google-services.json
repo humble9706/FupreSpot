@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40594842593",
+    "firebase_url": "https://fuprespot.firebaseio.com",
+    "project_id": "fuprespot",
+    "storage_bucket": "fuprespot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40594842593:android:d2adee411708e92bb6e8a0",
+        "android_client_info": {
+          "package_name": "com.toborehumble.fuprespot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40594842593-h2tcbk4dikr7qsrko78nmofbdcjud3p2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toborehumble.fuprespot",
+            "certificate_hash": "7af8355b61328cb34b390f0b9e94ce7487a9cbc2"
+          }
+        },
+        {
+          "client_id": "40594842593-d06u3c0cp1dd8utkj1ig3j2sfq1sl11i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9UpHWEjREB8zPn2PEgCJsYc9rHwiiXZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40594842593-d06u3c0cp1dd8utkj1ig3j2sfq1sl11i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
